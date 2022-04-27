@@ -139,9 +139,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79FDFE6820AD439F00749FB5 /* Build configuration list for PBXNativeTarget "AMSMB2" */;
 			buildPhases = (
+				79FDFE5120AD439F00749FB5 /* Headers */,
 				79FDFE4F20AD439F00749FB5 /* Sources */,
 				79FDFE5020AD439F00749FB5 /* Frameworks */,
-				79FDFE5120AD439F00749FB5 /* Headers */,
 				79FDFE5220AD439F00749FB5 /* Resources */,
 			);
 			buildRules = (
@@ -464,9 +464,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X4J7RFLCBN;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AMSMB2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -489,7 +489,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X4J7RFLCBN;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AMSMB2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
